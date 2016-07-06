@@ -1,0 +1,2 @@
+1.函数传参问题：对于main（data＝None，lab＝None，movie），这样会出错，应该写为main（movie，data＝None，lab＝None），即没有默
+认参数的必须放在前面。
