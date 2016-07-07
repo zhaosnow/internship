@@ -1,2 +1,5 @@
 1.函数传参问题：对于main（data＝None，lab＝None，movie），这样会出错，应该写为main（movie，data＝None，lab＝None），即没有默
 认参数的必须放在前面。
+2.decode与encode，decode是把任何编码解码成unicode，而encode则是编码。而中文的，或者控制台的编码为unicode之类，所以打印utf－8
+时，需要decode（‘utf－8’）
+3.python正则匹配中.*?的?这种模式中”的“必然出现一次，不会出现0次，因为模式.*或者.*?（贪婪和非贪婪模式）都会把”的“当成结束标志。
